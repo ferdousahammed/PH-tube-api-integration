@@ -39,6 +39,20 @@
           </button>
         </div>
       </nav>
+      <hr />
+      <div class="lg:hidden flex justify-center">
+        <button onclick="handleSortByViewClick()" class="btn px-5">
+          Short By View
+        </button>
+      </div>
+      <div
+        id="category-btn-container"
+        class="flex flex-wrap justify-center gap-6"
+      ></div>
+
+      <div id="loading-gif" class="justify-center hidden py-20">
+        <span class="loading loading-spinner text-error loading-lg"></span>
+      </div>
     </header>
     <main>
       <section id="card-container" class=""></section>
